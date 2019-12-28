@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        android:layout_margin="8dp"
+
+    <!-- Zone de nom du vin -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nom_du_vin"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ajoutvin_nom"
+                android:inputType="text" />
+        <!-- Zone de l'année du vin -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/annee_du_vin"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ajoutvin_annee"
+            android:inputType="number" />
+        <!-- Zone de la couleur du vin -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/couleur_du_vin"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ajoutvin_couleur"
+            android:inputType="text" />
+        <!-- Zone de la couleur du vin -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/appellation_du_vin"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ajoutvin_appellation"
+            android:inputType="text" />
+        <!-- Zone de la couleur du vin -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prix_du_vin"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ajoutvin_prix"
+            android:inputType="text" />
+        <!-- Zone de la couleur du vin -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/commentaire_du_vin"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minLines="8"
+            android:id="@+id/ajoutvin_commentaire"
+            android:inputType="textCapSentences|textMultiLine" />
+        <!-- Zone du bouton OK -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="right">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OK"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:id="@+id/ajoutvin_ok" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

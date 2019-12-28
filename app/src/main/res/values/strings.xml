@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CaveAVin</string>
+    <string name="annee_du_vin_yyyy">"Année du vin : %d"</string>
+    <string name="nom_du_vin">"Nom du vin :"</string>
+    <string name="annee_du_vin">"Année du vin :"</string>
+    <string name="couleur_du_vin">"Couleur du vin :"</string>
+    <string name="appellation_du_vin">"Appellation du vin :"</string>
+    <string name="prix_du_vin">"Prix du vin :"</string>
+    <string name="commentaire_du_vin">"Commentaire sur le vin :"</string>
+</resources>

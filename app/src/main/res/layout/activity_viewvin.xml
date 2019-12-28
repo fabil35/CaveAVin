@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/nomVin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="clip_vertical|center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="Nom du vin"
+        android:textStyle="bold"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/anneeVin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="année"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/couleurVin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="couleur"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/appellationVin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="appellation"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/prixVin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="prix"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/commentaireVin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="commentaire"
+        android:minLines="5"
+        android:maxLines="20"
+        android:textSize="18sp"/>
+
+</LinearLayout>
