@@ -1,0 +1,8 @@
+Château Margaux|2016|rouge|Margaux|140.23|Vin formidable
+Château Yquem|2013|blanc|Sauternes|250|Vin obsolète
+Château Moury|2011|rouge|Hautes Côtes de Nuits|30|Vin magnifique
+Château Haut-Brion|2016|rouge|Pessac-Léognan|235.10|Vin fantastique
+Château Le Crok|2016|rouge|Saint-Estèphe|40.50|Vin extraordinaire
+Mumm|2018|blanc|Champagne|32.00|Vin sensationnel
+Château Cheval-Blanc|2002|rouge|Pomerol|140.23|Vin inoubliable
+Hospices de Beaune|2016|rouge|Gevrey-Chambertin|389|Superbe vin
