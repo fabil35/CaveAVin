@@ -12,7 +12,7 @@ public class LocalSQLiteOpenHelper extends SQLiteOpenHelper {
     }
      @Override
     public void onCreate(SQLiteDatabase db) {
-        String sqlFilTable = "CREATE TABLE CAVAVIN(id INTEGER PRIMARY KEY, " +
+        String sqlFilTable = "CREATE TABLE Vin(id INTEGER PRIMARY KEY, " +
                 "nom TEXT, annee TEXT, couleur TEXT, appellation TEXT, prix TEXT, commentaire TEXT);";
         db.execSQL(sqlFilTable);
     }
