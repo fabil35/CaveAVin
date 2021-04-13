@@ -7,6 +7,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.io.BufferedReader;
@@ -22,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         list= (RecyclerView) findViewById(R.id.main_List);
- /*
-        list.setOnItemClickListener(new AdapterView.OnItemClickListener()
+
+        list.setOnClickListener(new AdapterView.OnClickListener()
         {
             @Override
             public void onItemClick(AdapterView<?> parent, View v, int
@@ -31,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 startViewVinActivity(id);
             }
         });
-*/
+
 
         SharedPreferences sharedPreferences =
                 getSharedPreferences("online.billard35.caveavin.locVin.prefs",Context.MODE_PRIVATE);
@@ -47,9 +49,9 @@ public class MainActivity extends AppCompatActivity {
         list.setAdapter(vinAdapter);
     }
 
-    private void startViewDVDActivity(long dvdId) {
+    private void startViewVinActivity(long vinId) {
         Intent intent = new Intent(this, ViewVinActivity.class);
-        intent.putExtra("vinId",dvdId);
+        intent.putExtra("vinId",vinId);
         startActivity(intent);
     }
 
