@@ -90,10 +90,10 @@ public class Vin {
         LocalSQLiteOpenHelper helper = new
                 LocalSQLiteOpenHelper(context);
         SQLiteDatabase db = helper.getReadableDatabase();
-        Cursor cursor = db.query(true, "online.billard35.caveavin.Vin",
+        Cursor cursor = db.query(true, "Vin",
                 new String[] {"id", "nom", "annee", "couleur", "appellation",
                         "prix", "commentaire"}, null, null,
-                null, null,"titre", null);
+                null, null,"id", null);
 
         while (cursor.moveToNext()) {
             listVin.add (new Vin(cursor));
