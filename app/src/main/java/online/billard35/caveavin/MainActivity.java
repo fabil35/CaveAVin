@@ -24,18 +24,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         list= (RecyclerView) findViewById(R.id.main_List);
-
-        list.setOnClickListener(new AdapterView.OnClickListener()
-        {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View v, int
-                    position, long id) {
-                startViewVinActivity(id);
-            }
-        });
-
-
-        SharedPreferences sharedPreferences =
+          SharedPreferences sharedPreferences =
                 getSharedPreferences("online.billard35.caveavin.locVin.prefs",Context.MODE_PRIVATE);
         if(!sharedPreferences.getBoolean("embeddedDataInserted", false))
             readEmbeddedData();
